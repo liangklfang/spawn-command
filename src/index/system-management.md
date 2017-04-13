@@ -55,3 +55,5 @@ cpu占用：
 [控制台，终端，tty，shell等概念的区别](http://www.2cto.com/os/201403/282583.html)
 
 [bios](http://baike.baidu.com/link?url=kOzNhEveSklj5z9VC7bXXoNjI5038C9B7GYhfLK9vdn_Nsmyszt2eYZnjr5WnkjVdcqxg-U0LET7w1zoVUuJoa)
+
+[Linux中终端和控制台区别：](http://www.cnblogs.com/fah936861121/p/6435112.html)
