@@ -13,7 +13,7 @@ child.on('exit', function (exitCode) {
   console.log('exit', exitCode);
 });
 ```
-##spawn-command的源码分析
+## spawn-command的源码分析
 ```js
 var util = require('util');
 var spawn = require('child_process').spawn;
@@ -39,7 +39,7 @@ module.exports = function (command, options) {
 };
 
 ```
-#ps命令查看所有的pid,PPID,PGID ,WINPID,UID等
+# ps命令查看所有的pid,PPID,PGID ,WINPID,UID等
 <pre>
        PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
     53136       1   53136      53136  ?         197108 16:24:59 /usr/bin/mintty
@@ -52,7 +52,7 @@ clipboard  console  full    null  random  sda1  shm     stdin   ttyS0    zero
 conin      dsp      kmsg    ptmx  scd0    sda2  sr0     stdout  urandom
 conout     fd       mqueue  pty0  sda     sda3  stderr  tty     windows
 </pre>
-#kill一个进程
+# kill一个进程
 ```bash
 $ my_command & sleep 5 
 $ kill -0 $! && kill $!
@@ -63,10 +63,10 @@ kill -0 pid 不发送任何信号，但是系统会进行错误检查。
 
 所以经常用来检查一个进程是否存在，存在返回0；不存在返回1。因此，上面的shell脚本就是查看一个进程是否存在，如果存在那么才会真实调用kill。如果要弄清楚这部分内容可以查看[concurrently](https://github.com/liangklfang/concurrently)
 
-#用户组
+# 用户组
 请查看[这里](./src/index/index.md)
 
-#进程管理
+# 进程管理
 请查看[这里](./src/index/system-management.md)
 
 
